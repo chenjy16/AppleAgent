@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# IDE
+.vscode/
+
+# Temporary files
+test_md.swift

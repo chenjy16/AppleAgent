@@ -1,0 +1,3 @@
+{"type":"session","id":"fixture-v1","timestamp":"2024-12-03T14:00:00.000Z","cwd":"/workspace"}
+{"type":"message","message":{"role":"user","content":"first","timestamp":1733234401000}}
+{"type":"message","message":{"role":"assistant","content":[{"type":"text","text":"second"}],"timestamp":1733234402000}}

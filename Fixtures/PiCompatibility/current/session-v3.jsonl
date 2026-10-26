@@ -1,0 +1,5 @@
+{"type":"session","version":3,"id":"fixture-v3","timestamp":"2024-12-03T14:00:00.000Z","cwd":"/workspace"}
+{"type":"message","id":"11111111","parentId":null,"timestamp":"2024-12-03T14:00:01.000Z","message":{"role":"user","content":"Hello","timestamp":1733234401000}}
+{"type":"message","id":"22222222","parentId":"11111111","timestamp":"2024-12-03T14:00:02.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Hi!"}],"api":"anthropic-messages","provider":"anthropic","model":"claude-sonnet-4-5","usage":{"input":2,"output":3,"cacheRead":0,"cacheWrite":0,"totalTokens":5},"stopReason":"stop","timestamp":1733234402000}}
+{"type":"message","id":"33333333","parentId":"22222222","timestamp":"2024-12-03T14:00:03.000Z","message":{"role":"toolResult","toolCallId":"call_123","toolName":"bash","content":[{"type":"text","text":"output"}],"isError":false,"timestamp":1733234403000}}
+{"type":"custom","id":"44444444","parentId":"33333333","timestamp":"2024-12-03T14:00:04.000Z","customType":"fixture","data":{"preserve":true}}

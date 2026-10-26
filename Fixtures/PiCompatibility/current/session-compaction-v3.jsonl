@@ -1,0 +1,6 @@
+{"type":"session","version":3,"id":"fixture-compaction","timestamp":"2024-12-03T14:00:00.000Z","cwd":"/workspace"}
+{"type":"message","id":"a1111111","parentId":null,"timestamp":"2024-12-03T14:00:01.000Z","message":{"role":"user","content":"Old question","timestamp":1733234401000}}
+{"type":"message","id":"a2222222","parentId":"a1111111","timestamp":"2024-12-03T14:00:02.000Z","message":{"role":"assistant","content":[{"type":"text","text":"Old answer"}],"timestamp":1733234402000}}
+{"type":"message","id":"a3333333","parentId":"a2222222","timestamp":"2024-12-03T14:00:03.000Z","message":{"role":"user","content":"Keep this question","timestamp":1733234403000}}
+{"type":"compaction","id":"a4444444","parentId":"a3333333","timestamp":"2024-12-03T14:00:04.000Z","summary":"The user asked an old question and received an answer.","firstKeptEntryId":"a3333333"}
+{"type":"message","id":"a5555555","parentId":"a4444444","timestamp":"2024-12-03T14:00:05.000Z","message":{"role":"assistant","content":[{"type":"text","text":"New answer"}],"timestamp":1733234405000}}
